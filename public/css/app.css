@@ -1,0 +1,177 @@
+header {
+  height: 100px;
+  display: flex;
+}
+header .header-menu {
+  height: 100px;
+}
+header .header-menu ul {
+  height: 100px;
+  list-style: none;
+  display: flex;
+}
+header .header-menu ul li {
+  height: 100px;
+  margin-left: 20px;
+}
+header .header-menu ul li a {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+header .header-menu ul li a:hover, header .header-menu ul li a.active {
+  border-bottom: blue 5px solid;
+}
+
+.header-logo {
+  height: 100px;
+  width: 30%;
+}
+.header-logo img {
+  margin-left: 250px;
+  margin-top: 10px;
+  width: 80px;
+}
+
+.main {
+  text-align: center;
+  background-color: black;
+  padding-bottom: 130px;
+  position: relative;
+}
+.main .jumbotron {
+  width: 100%;
+  height: 350px;
+  background-image: url("../images/jumbotron.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 20px;
+}
+.main .current {
+  width: 150px;
+  height: 40px;
+  color: white;
+  background-color: blue;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  position: absolute;
+  top: 335px;
+  left: 100px;
+}
+.main .load {
+  width: 150px;
+  height: 40px;
+  color: white;
+  background-color: blue;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  position: absolute;
+  left: 660px;
+  top: 1150px;
+}
+.main .containerImgs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+.main .containerImgs div {
+  margin-left: 20px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+.main .containerImgs div img {
+  width: 200px;
+}
+
+.footer {
+  width: 100%;
+  height: calc(100vh - 500px);
+  background-image: url("../images/dc-logo-bg.png"), url("../images/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 30%, cover;
+  background-position: 800px, center;
+  padding-top: calc((100vh - 200px) - 100px);
+}
+.footer img {
+  margin-left: 55%;
+  margin-top: 50px;
+  width: 30%;
+}
+.footer .liste {
+  position: relative;
+  padding-top: 150px;
+  width: 30%;
+  height: calc((100vh - 200px) - 100px);
+  margin-top: -455px;
+  margin-left: 150px;
+  font-family: "Raleway", sans-serif;
+  font-size: 10px;
+  color: white;
+}
+.footer .liste .shop {
+  position: absolute;
+  top: 300px;
+}
+.footer .liste ul {
+  float: left;
+  margin-left: 60px;
+}
+.footer .liste ul .first-element-list {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 7px;
+  color: white;
+}
+.footer .liste ul li {
+  list-style: none;
+  color: #c7c7c7;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.footer .last-footer {
+  height: 100px;
+  width: 100%;
+  background-color: #363636;
+  display: flex;
+  align-items: center;
+}
+.footer .last-footer button {
+  margin-left: 210px;
+  padding: 10px;
+  background-color: #363636;
+  border: solid 3px #4343ff;
+  cursor: pointer;
+}
+.footer .last-footer button p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: white;
+}
+.footer .last-footer .contacts {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 30%;
+  margin-left: 500px;
+}
+.footer .last-footer .contacts h1 {
+  color: blue;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+.footer .last-footer .contacts img {
+  width: 40px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
