@@ -1,7 +1,7 @@
 <header>
 
     <div class="header-logo">
-        <img src="{{asset('images/dc-logo.png')}}" alt="">
+        <a href="{{url('/')}}"><img src="{{asset('images/dc-logo.png')}}" alt=""></a>
     </div>
     <div class="header-menu">
         <ul>
