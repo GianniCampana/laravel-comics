@@ -6,34 +6,34 @@
     <div class="header-menu">
         <ul>
             <li>
-                <a href="{{ route('characters')}}">CHARACTERS</a>
+                <a href="{{ url('characters')}}">CHARACTERS</a>
             </li>
             <li>
-                <a href="{{ route('comics')}}">COMICS</a>
+                <a href="{{ url('comics')}}">COMICS</a>
             </li>
             <li>
-                <a href="{{ route('movies')}}">MOVIES</a>
+                <a href="{{ url('movies')}}">MOVIES</a>
             </li>
             <li>
-                <a href="{{ route('tv')}}">TV</a>
+                <a href="{{ url('tv')}}">TV</a>
             </li>
             <li>
-                <a href="{{ route('games')}}">GAMES</a>
+                <a href="{{ url('games')}}">GAMES</a>
             </li>
             <li>
-                <a href="{{ route('collectibles')}}">COLLECTIBLES</a>
+                <a href="{{ url('collectibles')}}">COLLECTIBLES</a>
             </li>
             <li>
-                <a href="{{ route('videos')}}">VIDEOS</a>
+                <a href="{{ url('videos')}}">VIDEOS</a>
             </li>
             <li>
-                <a href="{{ route('fans')}}">FANS</a>
+                <a href="{{ url('fans')}}">FANS</a>
             </li>
             <li>
-                <a href="{{ route('news')}}">NEWS</a>
+                <a href="{{ url('news')}}">NEWS</a>
             </li>
             <li>
-                <a href="{{ route('shop')}}">SHOP</a>
+                <a href="{{ url('shop')}}">SHOP</a>
             </li>
         </ul>
     </div>
